@@ -31,6 +31,7 @@ optional arguments:
 
 ## Dependencies
 - [img4](https://github.com/xerub/img4lib)
+- [xpwntool](https://github.com/planetbeing/xpwn)
 
 To run autodecrypt, use poetry with a virtualenv:
 - `virtualenv -p python3 env`
