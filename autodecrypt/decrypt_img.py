@@ -36,7 +36,7 @@ def decrypt_img(infile: str, magic: str, key: str, init_vector: str):
         print("[e] %s is not an IMG3 or IMG4 file" % infile)
         sys.exit(1)
 
-    outfile = infile.replace("im4p", "bin").replace("dfu", "bin")
+    outfile = infile.replace("im4p", "bin").replace("dfu", "bin").replace("img3", "bin")
 
     if magic == "img3" or magic == "img4":
         print("[i] decrypting %s to %s..." % (infile, outfile))
